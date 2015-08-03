@@ -3,7 +3,12 @@ class Fixnum
     number_array = []
     count = 1
     self.times() do
-      number_array.push(count)
+      case count
+      when 3
+        number_array.push("ping")
+      else
+        number_array.push(count)
+      end
       count += 1
     end
     number_array
