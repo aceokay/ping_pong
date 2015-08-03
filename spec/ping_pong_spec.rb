@@ -1,5 +1,5 @@
 require('rspec')
-require('title_case')
+require('ping_pong')
 require('pry')
 
 describe('Fixnum#ping_pong') do
